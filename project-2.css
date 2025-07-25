@@ -1,0 +1,625 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("./1.jpg");
+    background-size: 100% 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 5rem;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 2rem;
+}
+
+#logo {
+    padding-left: 5.5rem;
+    color: rgb(7, 248, 7);
+}
+
+nav ul {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    padding-right: 5.5rem;
+}
+
+#p1 {
+    width: 45%;
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-top: 2.5rem;
+    padding-left: 5.5rem;
+    padding-bottom: 1.5rem;
+    color: white;
+}
+
+#p2 {
+    width: 45%;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 5.5rem;
+    line-height: 2rem;
+    color: white;
+}
+
+input[type="text"] {
+    margin-left: 5.5rem;
+    width: 23%;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+
+input[type="submit"] {
+    margin-left: 5.5rem;
+    width: 23%;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    background-color: rgb(14, 229, 14);
+    color: white;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+}
+
+::placeholder {
+    color: gainsboro;
+}
+
+#read_more {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6rem;
+    flex-wrap: wrap;
+}
+
+.left h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left {
+    width: 25%;
+    height: auto;
+    background-image: url("./2.jpg");
+    background-size: contain;
+    background-position: 0 9rem;
+    background-repeat: no-repeat;
+}
+
+.mid {
+    width: 25%;
+    height: auto;
+}
+
+.mid h1 {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.mid p {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.2rem;
+    padding-top: 1rem;
+}
+
+.right {
+    width: 25%;
+    height: auto;
+}
+
+.right h1 {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.right p {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.2rem;
+    padding-top: 1rem;
+}
+
+#submit input[type="submit"] {
+    width: 45%;
+    background-color: rgb(36, 174, 36);
+    margin-left: 0;
+}
+
+#about_us {
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.left1 {
+    width: 50%;
+    height: auto;
+}
+
+.left1 h1 {
+    color: white;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    padding-top: 7rem;
+    padding-left: 5.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.left1 h2 {
+    color: white;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    padding-left: 5.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.left1 p {
+    color: white;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 2.3rem;
+    padding-left: 5.5rem;
+    padding-bottom: 1.5rem;
+    text-align: justify;
+}
+
+.right1 {
+    margin-top: 8rem;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 2.5rem; 
+}
+.course1 {
+    width: 40%;
+    height: auto;
+    background-color: gray;
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    align-content: center;
+    padding: 6rem 2rem;
+    font-weight: 800;     
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.course2 {
+    width: 40%;
+    height: auto;
+    background-color: gray;
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    align-content: center;
+    padding: 6rem 2rem;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5rem;
+}
+
+#p3 {
+    padding-bottom: 6rem;
+}
+
+#process {
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#design {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.circle {
+    width: 2rem;
+    aspect-ratio: 1/1;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.line {
+    width: 75%;
+    height: 0.3rem;
+    background-color: grey;
+    border-radius: 8%;
+    position: absolute;
+    top: 1rem;
+    z-index: -1;
+}
+
+#paragraph {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.one,.two,.three {
+    width: 20%;
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+.one h1,.two h1,.three h1 {
+    font-size: 3rem;
+    color: green;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 2rem;
+}
+
+.two h1 {
+    text-align: center;
+}
+
+.three h1 {
+    text-align: right;
+}
+.two p {
+    text-align: center;
+}
+
+.three p {
+    text-align: right;
+}
+
+#pictures {
+    margin-top: 6rem;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#p4 {
+    width: 100%;
+}
+
+.pics {
+    width: 44%;
+    background-color: gray;
+    height: auto;
+}
+
+.pics img {
+    width: 15%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    margin-left: 12%;
+    margin-top: 4rem;
+}
+
+.pics p {
+    width: 80%;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-left: 12%;
+    padding-top: 1.5rem;
+    line-height: 2.8rem;
+}
+
+.pics h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 1.5rem;
+    padding-left: 12%;
+    padding-bottom: 2rem;
+}
+
+@media only screen and (max-width:950px){ 
+    nav ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    #p1 {
+        width: 75%;
+    }
+    #p2 {
+        width: 75%;
+    }
+    input[type="text"] {
+        width: 35%;
+    }
+    input[type="submit"] {
+        width: 35%;
+    }
+    .left {
+        background-image: url("./2.jpg");
+        background-size: contain;
+        background-position: 0 12rem;
+        width: 30%;
+    }
+    .mid {
+        width: 30%;
+    }  
+    .right {
+        width: 30%;
+    }
+    #submit input[type="submit"] {
+        width: 70%;
+        background-color: rgb(36, 174, 36);
+    }
+    .left1 {
+        width: 95%;
+    }
+    .left1 p {
+        font-size: 2rem;
+        line-height: 2.8rem;
+    }
+    .right1 {
+        width: 95%;
+        margin: auto;
+        margin-top: 1rem;
+    }
+    .course1 {
+        width: 45%;
+    }
+    .course2 {
+        width: 45%;
+    }
+    .one,.two {
+        width: 45%;
+        font-size: 3rem;
+        margin-top: 3rem;
+        padding-left: 2rem;
+    }
+    .three {
+        width: 65%;
+        font-size: 3rem;
+        margin-top: 3rem;
+        padding-left: 2rem;
+    }
+    .one h1,.two h1,.three h1 {
+        font-size: 3rem;
+        color: green;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+    .one p,.two p,.three p {
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width:750px){ 
+
+    input[type="text"] {
+        width: 40%;
+    }
+    input[type="submit"] {
+        width: 40%;
+    }
+    .left {
+        background-image: url("./2.jpg");
+        background-size: contain;
+        background-position: 0 14rem;
+        width: 35%;
+    }
+    .mid {
+        width: 60%;
+    }  
+    .right {
+        width: 100%;
+        text-align: center;
+    }
+    #submit input[type="submit"] {
+        width: 50%;
+        background-color: rgb(36, 174, 36);
+    }
+    .left1 {
+        width: 90%;
+    }
+    .one,.two {
+        width: 70%;
+        font-size: 3rem;
+        margin-top: 3rem;
+        padding-left: 2rem;
+    }
+    .three {
+        width: 70%;
+        font-size: 3rem;
+        margin-top: 3rem;
+        padding-left: 2rem;
+    } 
+    .pics {
+        width: 95%;
+        height: auto;
+    }
+    
+    .pics img {
+        width: 25%;
+        aspect-ratio: 1/1;
+    }      
+}
+
+@media only screen and (max-width:450px){ 
+    nav ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    #p1 {
+        width: 100%;
+        padding-right: 3rem;
+    }
+    #p2 {
+        width: 100%;
+        padding-right: 3rem;
+
+    }
+    input[type="text"] {
+        width: 80%;
+    }
+    input[type="submit"] {
+        width: 80%;
+    }
+    #read_more {
+        align-content:space-evenly;
+    }
+    .left {
+        width: 95%;
+        background-position: 0 8rem;
+        background-image: url("./2.jpg");
+        height: 40rem;
+        margin: auto;
+    }
+    .mid {
+        width: 95%;
+        text-align: justify;
+        margin: auto;
+    }
+    .mid h1 {
+        text-align: center;
+    }  
+    .right {
+        width: 95%;
+        text-align: justify;
+        margin: auto;
+    }
+    .right h1 {
+        text-align: center; 
+    }
+    #submit input[type="submit"] {
+        width: 50%;
+        background-color: rgb(36, 174, 36);
+        margin-left: 25%;
+    }
+    .left1 {
+        width: 95%;
+    }
+    .left1 p {
+        font-size: 2rem;
+        line-height: 2.8rem;
+    }
+    .right1 {
+        width: 95%;
+        margin: auto;
+        margin-top: 1rem;
+    }
+    .course1 {
+        width: 90%;
+    }
+    .course2 {
+        width: 90%;
+        margin: 0;
+    }
+    #p3 {
+        padding: 2rem;
+    }
+    .one,.two {
+        width: 90%;
+        font-size: 3rem;
+        margin-top: 3rem;
+        padding-left: 2rem;
+    }
+    .three {
+        width: 90%;
+        font-size: 3rem;
+        margin-top: 3rem;
+        padding-left: 2rem;
+    }
+    .pics {
+        width: 90%;
+        height: auto;
+    }
+    .pics p {
+        width: 90%;
+    }           
+}
+
+#contact {
+    font-size: 4rem;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+form {
+    width: 100%;
+}
+
+form input[type="text"] {
+    margin-left: 30%;
+    width: 40%;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+
+#message {
+    height: 18rem;
+}
+
+form input[type="submit"] {
+    margin-left: 30%;
+    width: 40%;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    background-color: rgb(14, 229, 14);
+    color: white;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    height: 7rem;
+    text-align: center;
+    line-height: 7rem;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: white;
+}
